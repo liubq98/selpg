@@ -74,36 +74,36 @@ selpg [-s startPage] [-e endPage] [-l linePerPage | -f] [-d dest] input_file >ou
 input.txt里面是1到100行的内容分别为1到100的输入文件
 
 1. $ selpg -s1 -e1 input_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/1-1.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/1-1.png)
 一直到72
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/1-3.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/1-3.png)
 2. $ selpg -s1 -e1 < input_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/2.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/2.png)
 也是输出直到72，**后面的图片结果省略22到72的图片**
 3. $ other_command | selpg -s10 -e20
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/3.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/3.png)
 4. $ selpg -s10 -e20 input_file >output_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/masterpicture/4-1.png)
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/masterpicture/4-2.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/masterpicture/4-1.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/masterpicture/4-2.png)
 5. $ selpg -s10 -e20 input_file 2>error_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/masterpicture/5-1.png)
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/5-2.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/masterpicture/5-1.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/5-2.png)
 6. $ selpg -s10 -e20 input_file >output_file 2>error_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/6.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/6.png)
 7. $ selpg -s10 -e20 input_file >output_file 2>/dev/null
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/7.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/7.png)
 8. $ selpg -s10 -e20 input_file >/dev/null
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/8.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/8.png)
 9. $ selpg -s10 -e20 input_file | other_command
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/9.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/9.png)
 10. $ selpg -s10 -e20 input_file 2>error_file | other_command
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/10.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/10.png)
 ---
 1. $ selpg -s10 -e20 -l66 input_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/21.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/21.png)
 2. $ selpg -s10 -e20 -f input_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/22.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/22.png)
 3. $ selpg -s10 -e20 -dlp1 input_file
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/23.png)
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/23.png)
 4. $ selpg -s10 -e20 input_file > output_file 2>error_file &
-![在这里插入图片描述](https://github.com/liubq98/selpg/raw/master/picture/24.png) 
+![在这里插入图片描述](https://github.com/liubq98/selpg/tree/master/picture/24.png) 
