@@ -74,7 +74,7 @@ selpg [-s startPage] [-e endPage] [-l linePerPage | -f] [-d dest] input_file >ou
 input.txt里面是1到100行的内容分别为1到100的输入文件
 
 1. $ selpg -s1 -e1 input_file
-![在这里插入图片描述](./picture/1-1.png)
+![在这里插入图片描述](/picture/1-1.PNG)
 一直到72
 ![在这里插入图片描述](https://github.com/liubq98/selpg/blob/master/picture/1-3.png)
 2. $ selpg -s1 -e1 < input_file
